@@ -1,0 +1,30 @@
+.c-animation-transition {
+    div {
+        width: 100px;
+        height: 100px;
+        background-color: #b1b1b1;
+        margin: 10px 0;
+    }
+    p{
+        line-height: 100px;
+        text-align: center;
+    }
+    .c-transition {
+        transition: width 2s ease-in-out;
+    }
+    .c-transition:hover {
+        width: 500px;
+    }
+    .c-animation {
+        position: relative;
+        animation: myAnimation 5s infinite;
+    }
+
+    @keyframes myAnimation {
+        0% {left: 0; top: 0;}
+        25% {left: 0px; top: 100px}
+        50% {left: 0; top: 50px}
+        75% {left: 50px; top: 50px}
+        100% {left: 50px; top: 100px;}
+    }
+}

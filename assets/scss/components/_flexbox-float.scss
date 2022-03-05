@@ -1,0 +1,91 @@
+.c-flexbox-float {
+    width: 600px;
+    height: 500px;
+    background-color: cadetblue;
+
+    .c-flexbox--1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .c-flexbox--2{
+        @extend .c-flexbox--1;
+        justify-content: center;
+    }
+
+    .c-flexbox--3{
+        @extend .c-flexbox--1;
+        justify-content: flex-start;
+    }
+
+    .c-flexbox--4{
+        @extend .c-flexbox--1;
+        justify-content: flex-end;
+    }
+
+    .c-flexbox--5{
+        @extend .c-flexbox--1;
+        justify-content: space-around;
+    }
+    .c-flexbox--flexgrow{
+        @extend .c-flexbox--1;
+        div:first-child {
+            background-color: aqua;
+            flex-grow: 3;
+        }
+        div:last-child {
+            background-color: aquamarine;
+            flex-grow: 1;
+        }
+    }
+    .c-flexbox--flexdirection{
+        @extend .c-flexbox--1;
+        flex-direction: column-reverse;
+    }
+
+    .c-div {
+        background-color: #f1f1f1;
+        width: 100px;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .c-float {
+        div {
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+        .c-float--1{
+            float: left;
+            background-color: darkseagreen;
+        }
+        .c-float--2{
+            float: right;
+            background-color: aquamarine;
+        }
+        .c-float--3{
+            clear: left;
+            margin-top: 10px;
+            float: left;
+            width: 33.333333%;
+            background-color: darkseagreen;
+            border: 1px solid white;
+        }
+        .c-float--4{
+            margin-top: 10px;
+            float: left;
+            width: 33.333333%;
+            background-color: aqua;
+            border: 1px solid white;
+        }
+        .c-float--5{
+            margin-top: 10px;
+            float: left;
+            width: 33.333333%;
+            background-color: aquamarine;
+            border: 1px solid white;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.c-images-list {
+    max-width: 700px;
+    
+    .c-image img{
+        width: 100%;
+    }
+
+    .c-list {
+        display: flex;
+        background-color: #000;
+        li {
+            flex: 1;
+            margin-top: 5px;
+            margin-left: 5px;
+            img {
+                width: 100%;
+            }
+        }
+        li:last-child {
+            margin-right: 4px;
+        }
+    }
+}

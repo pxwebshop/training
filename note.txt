@@ -1,0 +1,7 @@
+Cái này:     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+Mình sẽ không để vậy. Bở người dùng gọi lên server của mình mà bên mình gọi tiếp tới thư viện trên mà thư viện đó lỗi sẽ không hiển thị cho người dùng xem được.
+Nên ta sẽ dowload về sẽ để vào folder của dự án
+.c-container => ll-container
+Với đặt tên cũng chưa hiệu quả lắm.. Nên để vào dự án thực tế em sẽ xem nó kĩ cách người ta đặt tên
+Em xem cái dự án này nè: Nó cách đặt tên: https://github.com/pxwebshop/project-front-end
+Với sau này e push code thì em viết bằng tiếng anh nha. Sau này dự án báo cáo của em ông thầy sẽ xem cách e push code lên á.

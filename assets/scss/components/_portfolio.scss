@@ -1,0 +1,46 @@
+.c-portfolio{
+
+    &--title{
+        padding-top: 222px;
+        margin-bottom: 100px;
+    }
+    &--content {
+        justify-content: space-between;
+        padding: 91px 0;
+    }
+
+    &--image {
+        width: 500px;
+    }
+
+    &--sub-content {
+        width: 550px;
+        h4 {
+            font-size: 24px;
+            line-height: 42px;
+            color: #fe6686;
+        }
+        h3 {
+            font-size: 42px;
+            line-height: 54px;
+            color: $color-black;
+            padding-top: 4px;
+            padding-bottom: 28px;
+        }
+        p {
+            font-size: 20px;
+            line-height: 32px;
+            color: $color-grey;
+            padding-bottom: 44px;
+        }
+        button {
+            border: 2px solid $color-purple;
+            background-color: transparent;
+            color: $color-black;
+            line-height: 36px;
+            font-size: 18px;
+            padding: 14px 44px;
+            font-weight: bold;
+        }
+    }
+}

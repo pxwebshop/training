@@ -1,0 +1,67 @@
+.l-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+$color-purple: #c04ae2;
+
+$color-black: #111111;
+
+$color-grey: #5e5858;
+
+.flex {
+    display: flex;
+}
+
+button {
+    width: 240px;
+    font-size: 24px;
+    color: #fff;
+    background-color: $color-purple;
+    line-height: 72px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.rectangle {
+    display: flex;
+    justify-content: space-between;
+    div {
+        width: 370px;
+        height: 500px;
+        border: 6px solid transparent;
+        border-radius: 10px;
+        margin-top: 116px;
+        padding: 216px 48px 0;
+        text-align: center;
+        h3 {
+            font-size: 30px;
+            line-height: 42px;
+            color: $color-black;
+        }
+        p {
+            margin-top: 19px;
+            font-size: 20px;
+            line-height: 28px;
+            color: $color-grey;
+        }
+    };
+}
+
+.title {
+    width: 770px;
+        margin: 0 auto;
+        text-align: center;
+        p {
+            font-size: 24px;
+            text-transform: uppercase;
+            color: $color-purple;
+            letter-spacing: 3px;
+            line-height: 72px;
+        }
+        h2 {
+            font-size: 60px;
+            line-height: 75px;
+            color: $color-black;
+        }
+}

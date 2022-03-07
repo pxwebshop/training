@@ -1,0 +1,44 @@
+.c-service {
+    &--title{
+        // width: 770px;
+        margin: 222px 0 0 auto;
+        text-align: right;
+        // p {
+        //     font-size: 24px;
+        //     text-transform: uppercase;
+        //     color: $color-purple;
+        //     letter-spacing: 3px;
+        //     line-height: 72px;
+        // }
+        // h2 {
+        //     font-size: 60px;
+        //     line-height: 75px;
+        //     color: $color-black;
+        // }
+    }
+    &--content {
+        flex-wrap: wrap;
+        div {
+            box-shadow: 0 0 25px 5px rgba($color: grey, $alpha: 0.2);
+        }
+        div:nth-child(2){
+            margin-top: 204px;
+        }
+        div:nth-child(3){
+            margin-top: 292px;
+        }
+        div:nth-child(4){
+            margin-top: -116px;
+        }
+        div:nth-child(5){
+            margin-top: -28px;
+        }
+        div:nth-child(6){
+            margin-top: 60px;
+            margin-bottom: 200px;
+        }
+        img {
+            margin: 46px 0;
+        }
+    }
+}

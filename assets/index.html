@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,52 +8,71 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="./scss/style.css">
 </head>
+
 <body>
-    <header class="" style="background: url(../assets/images/header/background-header.png) no-repeat center 0;">
+    <header>
         <div class="l-container">
             <div class="c-menu">
-                <h1>
-                    <a href="#">
-                        <img src="./images/header/logo-rou.png" alt="ROU-LOGO">
-                    </a>
-                </h1>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Get A Quote</a></li>
-                    <li>
-                        <ul>
-                            <li><a href="#"><img src="./images/header/social/facebook.png" alt="icon-facebook"></a></li>
-                            <li><a href="#"><img src="./images/header/social/twitter.png" alt="icon-twitter"></a></li>
-                            <li><a href="#"><img src="./images/header/social/youtube.png" alt="icon-youtube"></a></li>
-                            <li><a href="#"><img src="./images/header/social/instagram.png" alt="icon-instagram"></a></li>
-                        </ul>
-                    </li>
-                </ul>
+                <div class="c-menu__logo">
+                    <h1><a href="#">
+                            <figure><img src="./images/header/logo-rou.png" alt="ROU-LOGO"></figure>
+                        </a></h1>
+                </div>
+                <div class="c-menu__list">
+                    <ul>
+                        <li class="c-menu__item"><a href="#" class="c-menu__link">Home</a></li>
+                        <li class="c-menu__item"><a href="#" class="c-menu__link">About</a></li>
+                        <li class="c-menu__item"><a href="#" class="c-menu__link">Service</a></li>
+                        <li class="c-menu__item"><a href="#" class="c-menu__link">Works</a></li>
+                        <li class="c-menu__item"><a href="#" class="c-menu__link">News</a></li>
+                        <li class="c-menu__item"><a href="#" class="c-menu__link">Contact</a></li>
+                        <li class="c-menu__item"><a href="#" class="c-menu__link">Get A Quote</a></li>
+                        <li class="c-menu__item">
+                            <ul class="c-menu__list__child">
+                                <li class="c-menu__item__child">
+                                    <a href="#" class="c-menu__link__child">
+                                        <figure class="c-menu__img"><img src="./images/header/social/facebook.png"
+                                                alt="icon-facebook">
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li class="c-menu__item__child"><a href="#" class="c-menu__link__child">
+                                        <figure class="c-menu__img"><img src="./images/header/social/twitter.png"
+                                                alt="icon-twitter"></figure>
+                                    </a></li>
+                                <li class="c-menu__item__child"><a href="#" class="c-menu__link__child">
+                                        <figure class="c-menu__img"><img src="./images/header/social/youtube.png"
+                                                alt="icon-youtube"></figure>
+                                    </a></li>
+                                <li class="c-menu__item__child"><a href="#" class="c-menu__link__child">
+                                        <figure class="c-menu__img"><img src="./images/header/social/instagram.png"
+                                                alt="icon-instagram"></figure>
+                                    </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="c-slide">
-                <div class="c-slide--content">
-                    <h1>Work Smartly with Endless  Possibility</h1>
+                <div class="c-slide__content">
+                    <h1>Work Smartly with Endless Possibility</h1>
                     <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerction </p>
                     <button>Get Started</button>
                 </div>
-                <div class="c-slide--image">
+                <div class="c-slide__image">
                     <img src="./images/header/hero-header.png" alt="heros">
                 </div>
             </div>
         </div>
     </header>
-    <section style="background: #fefdfd url(../assets/images/intro/intro-background.png) no-repeat center center;">
-        <div class="c-intro l-container">
-            <div class="c-intro--title title">
+    <section class="l-container">
+        <div class="c-intro ">
+            <div class="c-title">
                 <p>build trust first</p>
                 <h2>Control your bussiness with a single tap</h2>
             </div>
-            <div class="c-intro--content rectangle">
+            <div class="c-intro__content rectangle">
+                <!-- này là icon của nó nên em để tạm style ở đây nha -->
                 <div style="background: url(../assets/images/intro/anchor.png) no-repeat center 96px;">
                     <h3>Complete business Control</h3>
                     <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exerci tation </p>
@@ -67,134 +87,280 @@
                 </div>
             </div>
         </div>
-        <div class="c-about l-container flex">
-            <div class="c-about--content">
+        <div class="c-about flex">
+            <div class="c-about__content">
                 <h2>Most innovative creative team</h2>
                 <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerction </p>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excep teur sint occae cat cupidatat non proident, sunt in culpa qui officia deser unt mollit anim id est laborum.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excep teur sint occae cat cupidatat non proident, sunt in culpa qui officia deser unt
+                    mollit anim id est laborum.</p>
                 <button>KNOW MORE</button>
             </div>
-            <div class="c-about--image">
+            <div class="c-about__image">
                 <img src="../assets/images/intro/about.png" alt="about">
             </div>
         </div>
-        <div class="c-service l-container">
-            <div class="c-service--title title">
+        <div class="c-service">
+            <div class="c-title">
                 <p>What we do</p>
                 <h2>Service to solve all kinds of business problem</h2>
             </div>
-            <div class="c-service--content rectangle">
+            <div class="c-service__content rectangle">
                 <div style="background: #fff url(../assets/images/intro/icon/business.png) no-repeat center 96px;">
                     <h3>Business Automation</h3>
                     <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exerci tation</p>
-                    <a href="#"><img src="./images/intro/icon/arrow.png" alt=""></a>
+                    <a href="#"><figure><img src="./images/intro/icon/arrow.png" alt=""></figure></a>
                 </div>
                 <div style="background: #fff url(../assets/images/intro/icon/cart.png) no-repeat center 96px;">
                     <h3>Ecommerce Support</h3>
                     <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exerci tation</p>
-                    <a href="#"><img src="./images/intro/icon/arrow.png" alt=""></a>
+                    <a href="#"><figure><img src="./images/intro/icon/arrow.png" alt=""></figure></a>
                 </div>
                 <div style="background: #fff url(../assets/images/intro/icon/video.png) no-repeat center 96px;">
                     <h3>Video Production</h3>
                     <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exerci tation</p>
-                    <a href="#"><img src="./images/intro/icon/arrow.png" alt=""></a>
+                    <a href="#"><figure><img src="./images/intro/icon/arrow.png" alt=""></figure></a>
                 </div>
                 <div style="background: #fff url(../assets/images/intro/icon/headphone.png) no-repeat center 96px;">
                     <h3>Realtime Support </h3>
                     <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exerci tation</p>
-                    <a href="#"><img src="./images/intro/icon/arrow.png" alt=""></a>
+                    <a href="#"><figure><img src="./images/intro/icon/arrow.png" alt=""></figure></a>
                 </div>
                 <div style="background: #fff url(../assets/images/intro/icon/location.png) no-repeat center 96px;">
                     <h3>Location Marking</h3>
                     <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exerci tation</p>
-                    <a href="#"><img src="./images/intro/icon/arrow.png" alt=""></a>
+                    <a href="#"><figure><img src="./images/intro/icon/arrow.png" alt=""></figure></a>
                 </div>
                 <div style="background: #fff url(../assets/images/intro/icon/upload.png) no-repeat center 96px;">
                     <h3>File Upload Protocol</h3>
                     <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exerci tation</p>
-                    <a href="#"><img src="./images/intro/icon/arrow.png" alt=""></a>
+                    <a href="#"><figure><img src="./images/intro/icon/arrow.png" alt=""></figure></a>
                 </div>
             </div>
         </div>
     </section>
-    <section style="background: url(../assets/images/portfolio/portfolio-background.png) no-repeat center center;">
-        <div class="c-portfolio l-container">
-            <div class="c-portfolio--title title">
+    <section class="l-container">
+        <div class="c-portfolio">
+            <div class="c-title">
+                <h2 class="c-title1">
+                    <p>Our Project</p>
+                    <span>Check the real innovation of problem solving</span>
+                </h2>
                 <p>Our Project</p>
                 <h2>Check the real innovation of problem solving</h2>
             </div>
-            <div class="c-portfolio--content flex">
-                <div class="c-portfolio--image">
+            <div class="c-portfolio__content flex">
+                <div class="c-portfolio__image">
                     <img src="../assets/images/portfolio/cactus.png" alt="">
                 </div>
-                <div class="c-portfolio--sub-content">
+                <div class="c-portfolio__sub-content">
                     <h4>Development</h4>
                     <h3>Jodi kokhono vul hoye jay tumi oporadh nio na</h3>
-                    <p>Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia deser unt mollit a do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <p>Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia deser unt mollit a do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     <button>View Project</button>
                 </div>
             </div>
-            <div class="c-portfolio--content flex">
-                <div class="c-portfolio--sub-content">
-                    <h4>Research & Analytics</h4>
-                    <h3>Ei biristi veja rate tuminei bole somoy amar katena</h3>
-                    <p>Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia deser unt mollit a do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
-                    <button>View Project</button>
-                </div>
-                <div class="c-portfolio--image">
+            <div class="c-portfolio__content c-portfolio__imgtext--reserve flex">
+                <div class="c-portfolio__image">
                     <img src="../assets/images/portfolio/orange.png" alt="">
                 </div>
+                <div class="c-portfolio__sub-content">
+                    <h4>Research & Analytics</h4>
+                    <h3>Ei biristi veja rate tuminei bole somoy amar katena</h3>
+                    <p>Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia deser unt mollit a do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <button>View Project</button>
+                </div>
             </div>
-            <div class="c-portfolio--content flex">
-                <div class="c-portfolio--image">
+            <div class="c-portfolio__content flex">
+                <div class="c-portfolio__image">
                     <img src="../assets/images/portfolio/phone.png" alt="">
                 </div>
-                <div class="c-portfolio--sub-content">
+                <div class="c-portfolio__sub-content">
                     <h4>UI/UX Engineering</h4>
                     <h3>Ami jare chaire se thake mori ontore </h3>
-                    <p>Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia deser unt mollit a do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+                    <p>Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia deser unt mollit a do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     <button>View Project</button>
                 </div>
             </div>
         </div>
     </section>
-    <section style="background: url(../assets/images/team/team-background.png) no-repeat center center;">
-        <div class="c-team l-container">
-            <div class="c-team--meet-team">
-                <div class="c-team--title-meet title">
+    <section class="l-container">
+        <div class="c-team ">
+            <div class="c-team__meet-team">
+                <div class="c-title">
                     <p>Meet our team</p>
                     <h2>Awesome people with great business skills</h2>
                 </div>
-                <div class="c-team--image-meet flex">
-                    <div class="c-team--partner1">
+                <div class="c-team__image-meet flex">
+                    <div class="c-team__partner1">
                         <img src="./images/team/bruce.png" alt="">
                         <h4>Bruce Wayne</h4>
                         <p>Founder & CEO</p>
                     </div>
-                    <div class="c-team--partner2">
+                    <div class="c-team__partner2">
                         <img src="./images/team/clark.png" alt="">
                         <h4>Clark Kent</h4>
                         <p>Manager</p>
                     </div>
-                    <div class="c-team--partner3">
+                    <div class="c-team__partner3">
                         <img src="./images/team/jessica.png" alt="">
                         <h4>Jessica Parker</h4>
                         <p>Developer</p>
                     </div>
-                    <div class="c-team--partner4">
+                    <div class="c-team__partner4">
                         <img src="./images/team/justin.png" alt="">
                         <h4>Justin Parkerman</h4>
                         <p>Designer</p>
                     </div>
                 </div>
             </div>
-            <div class="c-team--testimonial">
-                <div class="c-team--title-testimonial">
-                    
+            <div class="c-team__testimonial">
+                <div class="flex">
+                    <div class="c-team__txt">
+                        <div class="c-title">
+                            <p>Testimonial</p>
+                            <h2>They are awesome!</h2>
+                        </div>
+                        <div class="c-txt">
+                            <p>Kollit a do eiusmod tempor incididunt ut labore et do irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
+                    </div>
+                    <div class="c-team__image-testimonial">
+                        <img src="../assets/images/team/us.png" alt="">
+                    </div>
                 </div>
-                <div class="c-team--image-testimonial"></div>
             </div>
         </div>
     </section>
+    <section class="l-container">
+        <div class="c-contact">
+            <div class="c-title">
+                <p>contact us</p>
+                <h2>Stay connected with us for any reason</h2>
+            </div>
+            <div class="c-contact__content flex">
+                <div class="c-contact__form">
+                    <h3 class="c-contact__title">Write us a message</h3>
+                    <form action="#" class="c-form">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Subject">
+                        <input type="text" placeholder="Message">
+                        <button>Get Started</button>
+                    </form>
+                </div>
+                <div class="c-contact__address">
+                    <div class="c-contact__address__txt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    <div class="c-contact__address__abc c-contact__phone">
+                        <p>Phone</p>
+                        <i>0123-45678910</i>
+                    </div>
+                    <div class="c-contact__address__abc c-contact__email">
+                        <p>Email</p>
+                        <i>hello@gmail.com</i>
+                    </div>
+                    <div class="c-contact__address__abc c-contact__add">
+                        <p>Address</p>
+                        <i>20, Bordeshi, Amin Bazar, Savar, Dbaka</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="l-container">
+        <div class="c-blog">
+            <div class="c-title">
+                <p>from our blog</p>
+                <h2>Get lastest update</h2>
+            </div>
+            <div class="c-blog__content flex">
+                <div class="c-blog__txt c-blog__txt--1">
+                    <h4>App Development</h4>
+                    <h3>When the musics over turn off the light </h3>
+                    <p>Excep teur sint occae cat cupid atat non proident, sunt in culpa qui officia deser unt mollit ..</p>
+                    <p>Sharmin Eity</p>
+                </div>
+                <div class="c-blog__txt c-blog__txt--2"><h4>App Development</h4>
+                    <h3>When the musics over turn off the light </h3>
+                    <p>Excep teur sint occae cat cupid atat non proident, sunt in culpa qui officia deser unt mollit ..</p>
+                    <p>Sanjida Ema</p>
+                </div>
+                <div class="c-blog__txt c-blog__txt--3"><h4>App Development</h4>
+                    <h3>When the musics over turn off the light </h3>
+                    <p>Excep teur sint occae cat cupid atat non proident, sunt in culpa qui officia deser unt mollit ..</p>
+                    <p>Nayna Eva</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="l-container">
+        <div class="c-footer flex">
+            <div class="c-footer__description">
+                <div class="c-footer__logo">
+                    <figure><img src="./images/header/logo-rou.png" alt="ROU-LOGO"></figure>
+                </div>
+                <div class="c-footer__txt">
+                    <p>Fectetur adipisicing elit, sed do eius mod tempor Lorem ipsum dolor sit amet, con sectetur adipisicing elitt ut labore</p>
+                </div>
+                <div class="c-footer__send-mail">
+                    <input type="text" placeholder="Submit Email">
+                </div>
+                <div class="c-footer__follow flex">
+                    <h4>Follow us</h4>
+                    <ul class="c-follow__list">
+                        <li><a href="#" class="c-footer__link__follow">
+                            <figure class="c-menu__img"><img src="./images/header/social/facebook.png"
+                                    alt="icon-facebook">
+                            </figure>
+                        </a></li>
+                        <li><a href="#" class="c-footer__link__follow">
+                            <figure class="c-menu__img"><img src="./images/header/social/twitter.png"
+                                    alt="icon-facebook">
+                            </figure>
+                        </a></li>
+                        <li><a href="#" class="c-footer__link__follow">
+                            <figure class="c-menu__img"><img src="./images/header/social/youtube.png"
+                                    alt="icon-facebook">
+                            </figure>
+                        </a></li>
+                        <li><a href="#" class="c-footer__link__follow">
+                            <figure class="c-menu__img"><img src="./images/header/social/instagram.png"
+                                    alt="icon-facebook">
+                            </figure>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="c-footer__general flex">
+                <ul class="c-footer__about">
+                    <h3>About</h3>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Our Stoiry</a></li>
+                    <li><a href="#">Success</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+                <ul class="c-footer__service">
+                    <h3>Service</h3>
+                    <li><a href="#">Development</a></li>
+                    <li><a href="#">Maintanance</a></li>
+                    <li><a href="#">Consultant</a></li>
+                    <li><a href="#">Design</a></li>
+                </ul>
+                <ul class="c-footer__get-in-touch">
+                    <h3>Get in touch</h3>
+                    <li><p>22/1 Bardeshi, Amin Bazar, Dhaka 1348</p></li>
+                    <li><p>xuwelkhan@gmail.com</p></li>
+                    <li><p>+88 01679 252595</p></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

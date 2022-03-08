@@ -3,7 +3,7 @@
     justify-content: space-between;
     padding-top: 55px;
 
-    h1 {
+    &__logo {
         height: 36px;
         line-height: 36px;
         img {
@@ -11,25 +11,26 @@
         }
     }
 
-    ul {
-        a {
-            padding: 5px 15px;
-            font-weight: bold;
-            border: 2px solid transparent;
-            color: $color-black;
-            font-size: 20px;
-            line-height: 36px;
-        }
-        a:hover {
-            border: 2px solid $color-purple;
-            border-radius: 5px;
-        }
-        li ul {
-            a {padding: 5px;}
-            a:hover {
-                border: 2px solid transparent;
-            }
-        }
+    &__link {
+        padding: 5px 15px;
+        font-weight: bold;
+        border: 2px solid transparent;
+        color: $color-black;
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    &__link:hover {
+        border: 2px solid $color-purple;
+        border-radius: 5px;
+    }
+
+    &__item__child {
+        a {padding: 5px;}
+    }
+
+    &__img {
+        display: inline;
     }
 }
 
@@ -39,7 +40,7 @@
     display: flex;    
     justify-content: space-between;
     padding-bottom: 264px;
-    &--content{
+    &__content{
         width: 570px;
         h1 {
             font-size: 90px;
@@ -55,7 +56,7 @@
         }
     }
 
-    &--image{
+    &__image{
         width: 570px;
         img {
             width: 100%;

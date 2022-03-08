@@ -1,0 +1,17 @@
+.c-title {
+    width: 770px;
+        margin: 0 auto;
+        text-align: center;
+        p {
+            font-size: 24px;
+            text-transform: uppercase;
+            color: $color-purple;
+            letter-spacing: 3px;
+            line-height: 72px;
+        }
+        h2 {
+            font-size: 60px;
+            line-height: 75px;
+            color: $color-black;
+        }
+}

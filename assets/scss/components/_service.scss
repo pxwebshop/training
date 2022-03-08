@@ -1,5 +1,5 @@
 .c-service {
-    &--title{
+    .c-title{
         // width: 770px;
         margin: 222px 0 0 auto;
         text-align: right;
@@ -16,7 +16,7 @@
         //     color: $color-black;
         // }
     }
-    &--content {
+    &__content {
         flex-wrap: wrap;
         div {
             box-shadow: 0 0 25px 5px rgba($color: grey, $alpha: 0.2);

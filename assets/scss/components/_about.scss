@@ -1,7 +1,7 @@
 .c-about {
     margin-top: 185px;
     justify-content: space-between;
-    &--content {
+    &__content {
         width: 470px;
         h2 {
             font-size: 60px;
@@ -21,7 +21,7 @@
             margin-bottom: 36px;
         }
     }
-    &--image {
+    &__image {
         width: 500px;
         img {
             width: 100%;

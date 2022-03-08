@@ -1,0 +1,79 @@
+.c-footer {
+    margin-top: 122px;
+    justify-content: space-between;
+
+    &__description {
+        width: 369px;
+    }
+    &__txt {
+        margin: 40px 0;
+        font-size: 18px;
+        line-height: 27px;
+        color: $color-black;
+    }
+    &__send-mail{
+        input {
+            width: 100%;
+            font-size: 18px;
+            line-height: 24px;
+            color: $color-grey;
+            border: transparent;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+        }
+    }
+
+    &__follow {
+        h4 {
+            font-size: 18px;
+            line-height: 36px;
+            color: $color-black;
+            margin-right: 50px;
+        }
+        margin-top: 112px;
+        justify-content: space-between;
+    }
+
+    &__link__follow {
+        font-size: 18px;
+        line-height: 36px;
+        margin-right: 12px;
+    }
+
+    &__general{
+        width: 650px;
+        justify-content: space-between;
+        ul {
+            font-size: 18px;
+            display: inline-block;
+            li {
+                display: block;
+
+                a, p {
+                    color: $color-grey;
+                    font-size: 18px;
+                    line-height: 30px;
+                    margin: 10px 0;
+                }
+            }
+            h3 {
+                font-size: 24px;
+                line-height: 26px;
+                color: $color-black;
+                margin-bottom: 37px;
+            }
+        }  
+    }
+    &__about {
+        width: 100px;
+    }
+
+    &__service {
+        width: 130px;
+    }
+
+    &__get-in-touch {
+        width: 300px;
+    }
+}

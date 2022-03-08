@@ -1,19 +1,15 @@
 .c-portfolio{
 
-    &--title{
-        padding-top: 222px;
-        margin-bottom: 100px;
-    }
-    &--content {
+    &__content {
         justify-content: space-between;
         padding: 91px 0;
     }
 
-    &--image {
+    &__image {
         width: 500px;
     }
 
-    &--sub-content {
+    &__sub-content {
         width: 550px;
         h4 {
             font-size: 24px;
@@ -42,5 +38,9 @@
             padding: 14px 44px;
             font-weight: bold;
         }
+    }
+
+    &__imgtext--reserve{
+        flex-direction: row-reverse;
     }
 }
